@@ -17,7 +17,7 @@ A feature-rich job portal connecting recruiters and job seekers. Supports job po
   <img src="https://img.shields.io/badge/Clerk-3D3D3D?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  ![MERN Logo](https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png)
+ 
 </p>
 
 ---
@@ -32,12 +32,60 @@ A feature-rich job portal connecting recruiters and job seekers. Supports job po
 - Responsive design with Tailwind CSS.
 - Scalable backend API with secure routing and MongoDB integration.
 
+### 👨‍💻 Job Seeker
+- View available jobs
+- Apply to jobs with resume upload
+- Track applied jobs
+- Update resume
+
+### 🏢 Company
+- Register/Login
+- Post jobs
+- View applicants for each job
+- Update application status and visibility
+
 ---
 
-## 🚀 Getting Started
+## 🔧 Tech Stack
 
-```bash
-git clone https://github.com/Mayursingh9111/job-portal.git
-cd job-portal
-npm install
-npm start
+- **Frontend:** React.js, Tailwind CSS (or CSS)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas
+- **Authentication:** Clerk (or JWT, configurable)
+- **File Uploads:** Multer (for resumes and images)
+
+---
+
+## 🔌 API Endpoints
+
+### 🔹 User Routes
+
+| Method | Endpoint           | Description                     |
+|--------|--------------------|---------------------------------|
+| GET    | `/api/user`        | Get user data                   |
+| POST   | `/api/apply`       | Apply for a job                 |
+| GET    | `/api/application` | Get applied job data            |
+| POST   | `/api/update-resume` | Upload/update resume          |
+
+### 🔹 Job Routes
+
+| Method | Endpoint           | Description                     |
+|--------|--------------------|---------------------------------|
+| GET    | `/api/jobs/`       | Get all jobs                    |
+| GET    | `/api/jobs/:id`    | Get job by ID                   |
+
+### 🔹 Company Routes
+
+| Method | Endpoint                | Description                        |
+|--------|-------------------------|------------------------------------|
+| POST   | `/api/company/register` | Register a company                 |
+| POST   | `/api/company/login`    | Company login                      |
+| GET    | `/api/company`          | Get logged-in company data         |
+| POST   | `/api/post-job`         | Post a job                         |
+| GET    | `/api/applicants`       | Get all applicants                 |
+| GET    | `/api/list-jobs`        | Get all posted jobs                |
+| POST   | `/api/change-status`    | Change application status          |
+| POST   | `/api/change-visiblity` | Change job application visibility  |
+
+---
+
