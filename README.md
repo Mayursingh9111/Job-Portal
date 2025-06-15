@@ -90,7 +90,7 @@ A feature-rich job portal connecting recruiters and job seekers. Supports job po
 ---
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/job-portal.git
+git clone https://github.com/Mayursingh9111/Job-Portal
 cd job-portal
 
 ### 2. Install backend dependencies
