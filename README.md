@@ -17,6 +17,7 @@ A feature-rich job portal connecting recruiters and job seekers. Supports job po
   <img src="https://img.shields.io/badge/Clerk-3D3D3D?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
   <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  ![MERN Logo](https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png)
 </p>
 
 ---
