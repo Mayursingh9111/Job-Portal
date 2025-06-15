@@ -89,3 +89,28 @@ A feature-rich job portal connecting recruiters and job seekers. Supports job po
 
 ---
 
+### 1. Clone the repository
+git clone https://github.com/your-username/job-portal.git
+cd job-portal
+
+### 2. Install backend dependencies
+cd backend
+npm install
+
+### 3. Create a .env file in backend folder
+touch .env
+
+### 4. Add the following environment variables in .env
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+
+### 5. Start the backend server
+npm run dev
+
+### 6. Open a new terminal and install frontend dependencies
+cd ../frontend
+npm install
+
+### 7. Start the frontend server
+npm start
